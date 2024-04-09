@@ -1,0 +1,103 @@
+.header {
+    margin: 0 2.5rem;
+    padding: .5rem 0;
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+    padding-bottom: 1rem;
+}
+
+.headerLeft, .headerRight {
+    display: flex;
+    align-items: center;
+
+}
+
+a > span{
+    margin: 0 30px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: white;
+}
+
+a > span:hover {
+    color: red;
+}
+
+.header__icon {
+    width: 250px;
+    cursor: pointer;
+    padding-top: 13px;
+    
+}
+
+.user__avatar {
+    font-size: 2rem;
+}
+
+@media (max-width: 1220px)
+{
+    a > span{
+        font-size: 12px;
+        margin: 0 15px;
+
+    }
+    .header__icon {
+        width: 200px;
+        
+    }
+    
+}
+
+@media (max-width: 950px)
+{
+    a > span{
+        font-size: 8px;
+        margin: 0 8px;
+    }
+    .header__icon {
+        width: 100px;
+    }
+    
+}
+
+@media (max-width: 490px)
+{
+    a > span{
+        font-size: 8px;
+        margin: 0 5px;
+    }
+    .header__icon {
+        width: 50px;
+    }
+
+}
+
+@media (max-width: 395px)
+{
+    a > span{
+        font-size: 7px;
+        margin: 0 5px;
+    }
+    .header__icon {
+        width: 25px;
+        
+    }
+    
+}
+
+@media (max-width: 346px)
+{
+    a > span{
+        font-size: 5px;
+        margin: 0 5px;
+        
+        
+        
+    }
+    .header__icon {
+        width: 50px;
+        
+    }
+    
+}

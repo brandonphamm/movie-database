@@ -1,0 +1,17 @@
+.about-page{
+    padding-bottom: 5rem;
+    text-align: center;
+}
+
+h1 {
+    text-align: left;
+    padding: 0 3rem 3rem 3rem;
+}
+
+.about-page a {
+    color: rgb(255, 255, 255); /* Change the color of anchor elements to blue */
+  }
+.tmdb-logo {
+    padding-top: 5rem;
+    width: 50%;
+}
